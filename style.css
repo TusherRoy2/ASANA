@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.main-section{
+    background-image:url('image/model.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:20px;
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0 80px;
+}
+.top .logo{
+    width:15%;
+}
+.top .logo img{
+    width:160px;
+    display: block;
+}
+.top .menu{
+    width:75%;
+}
+.top .menu ul{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.top .menu ul li{
+    padding: 0 15px;
+}
+.top .menu ul li a{
+    text-transform: capitalize;
+    text-decoration:none;
+    color:#fff;
+    font-size:14px
+}
+.top .menu ul li i{
+    color:#fff;
+    font-size:14px;
+}
+.top .menu ul li i:hover{
+    color:#FF0000;
+}
+.search{
+    display:none;
+}
+.search input{
+    width:170px;
+    border:none;
+    padding: 2px 5px 2px;
+    font-size:14px
+}
+.search-icon i{
+    color:#000;
+}
+.search-icon i:hover{
+    color:#FF0000;
+}
+.menu-close i{
+    color:#fff;
+}
+.menu-close i:hover{
+    color:#FF0000;
+}
+.menu .icon i{
+    display:none;
+    color:#fff;
+}
+.menu .icon i:hover{
+    color:#FF0000;
+}
+.menu ul li a::after{
+    content:"";
+    display:block;
+    width:10px;
+    height:2px;
+    background:transparent;
+}
+.menu ul li a:hover::after{
+    background:red;
+}
+
+/* top area end */
+
+.middle{
+    padding:0 0 60px;
+}
+.middle h1{
+    color:#fff;
+    font-size:40px;
+    width:350px;
+    padding: 0 0 20px;
+    line-height: 1em;
+    position:relative;
+}
+.middle h1::before{
+    content:'';
+    display:block;
+    width:40px;
+    height:2px;
+    background:red;
+    position:absolute;
+    top:-20px;
+    left:0;
+}
+.middle button{
+    background:transparent;
+    color:#fff;
+    border:1px solid red;
+    padding:5px 20px;
+}
+.middle .getting:hover{
+    background:#FF0000
+}
+
+/* middle end */
+
+.btm-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom .fVision{
+    width:350px;
+    background:#000;
+    padding:50px 20px 30px
+}
+.bottom .fVision i{
+    color:#fff;
+    font-size:25px
+}
+.bottom .fVision:nth-child(1){
+    background:#FF0000;
+}
+.bottom .fVision h3{
+    color:#fff;
+    font-size:20px;
+    text-transform: capitalize;
+    margin:20px 0 25px
+}
+.bottom .fVision h3::after{
+    content: '';
+    display:block;
+    width:40px;
+    height:2px;
+    background:#FF0000
+}
+.bottom .item-1 h3::after{
+    content: '';
+    display:block;
+    width:40px;
+    height:2px;
+    background:#fff
+}
+.bottom .fVision p{
+    color:#fff;
+    line-height:1.6;
+    font-size: 14px;
+    padding-bottom:15px;
+}
+.bottom .item-2{
+    position: relative;
+}
+.bottom .item-2::after{
+    content:'';
+    display:block;
+    width:2px;
+    height:20px;
+    background:#FF0000;
+    position:absolute;
+    top:100%;
+    left:50%;
+    transform:translateX(-50%);
+}
+.bottom .fVision:nth-child(3)::after{
+    content: '';
+    display: block;
+    width:330px;
+    height:10px;
+    background:#FF0000
+}
+.bottom .fVision.item-3{
+    position:relative;
+}
+.bottom .fVision.item-3::before{
+    content:'';
+    display:block;
+    width:10px;
+    height:50px;
+    background:#FF0000;
+    position:absolute;
+    bottom:30px;
+    left:100%
+}
+.bottom .item-2 i,
+.bottom .item-3 i{
+    color:#FF0000
+}

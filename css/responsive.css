@@ -1,0 +1,99 @@
+@media (max-width:991px){
+    .main-section{
+        position:relative;
+    }
+    .all{
+        position:absolute;
+        top:-1000px;
+        right:0;
+        z-index: 1
+    }
+    .search{
+        display:block;
+        position:absolute;
+        top:20px;
+        right:10px;
+    }
+    .search-icon{
+        position:absolute;
+        top:1.5px;
+        right:10px;
+    }
+    .menu-close{
+        position:absolute;
+        top:0;
+        right:185px
+    }
+    .top .menu ul{
+        display:block;
+        position:absolute;
+        top:0;
+        right:0;
+        background:#000000;
+        padding:20px;
+        width:235px;
+        height:100vh;
+    }
+    .top .menu ul li:first-child{
+        margin-top: 40px;
+    }
+    .top .menu ul li{
+        padding: 10px 15px;
+    }
+    .menu ul li i{
+        display:none;
+    }
+    .menu .icon i{
+        display:flex;
+        justify-content: flex-end;    
+    }
+    
+    /* end top  */
+
+    .middle h1{
+        font-size:35px
+    }
+    .middle h1::before{
+        width:35px
+    }
+    .middle button{
+        padding:4.5px 17px;
+        font-size:15px
+    }
+}
+
+@media (max-width:768px){
+    .top .logo img{
+        width:145px;
+    }
+    /* top end */
+    .middle h1{
+        width:250px;
+        font-size:30px
+    }
+    .middle h1::before{
+        width:30px
+    }
+    .middle button{
+        padding:4px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:580px){
+    .top .logo img{
+        width:125px;
+    }
+    /* top end */
+    .middle h1{
+        width:250px;
+        font-size:28px
+    }
+    .middle h1::before{
+        width:28px
+    }
+    .middle button{
+        padding:3.5px 14px;
+        font-size: 13px;
+    }
+}
